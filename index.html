@@ -4,8 +4,82 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>CV</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="./assets/svg/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pridi&display=swap" rel="stylesheet">
 </head>
 <body>
+  <header class="header">
+    <div class="wrapper">
+      <nav>
+        <ul class="navigation">
+          <li class="navigation__item"><a href="#contacts" class="navigation__link">Contacts</a></li>
+          <li class="navigation__item"><a href="#summary" class="navigation__link">Summary</a></li>
+          <li class="navigation__item"><a href="#skills" class="navigation__link">Skills</a></li>
+          <li class="navigation__item"><a href="#code" class="navigation__link">Code</a></li>
+          <li class="navigation__item"><a href="#education" class="navigation__link">Education</a></li>
+          <li class="navigation__item"><a href="#english-level" class="navigation__link">English level</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <div class="wrapper container">
+      <section id="profile">
+        <h1 class="profile__title"><a href="#" class="link">Cherlenok Dmitry</a></h1>
+        <img src="assets/img/avatar.jpg" alt="avatar" class="avatar">
+      </section>
+      <section id="contacts">
+        <h2 class="contacts__title"><a href="#" class="link">Contacts</a></h2>
+        <ul>
+          <li>Phone: <a href="tel:+375445540468">+375 44 554-04-68</a></li>
+          <li>E-mail: <a href="mailto:dzmitrycharlianok@gmail.com">dzmitrycharlianok@gmail.com</a></li>
+          <li>Telegram: <a href="https://telegram.me/CharlianokDzmitry">@CharlianokDzmitry</a></li>
+          <li>Discord: <a href="https://discord.gg/cherlenokdmitry">Cherlenok Dmitry (@Charlianok)</a></li>
+        </ul>
+      </section>
+      <section id="summary">
+        <h2 class="summery__title"><a href="#" class="link">Summery</a></h2>
+        <p>I learned frontend on my own for about two years. Then there was a need for help. I learned about RS School courses. I passed the stage 0 last year and started to study the stage 1. Unfortunately, due to lack of time, it was not possible to finish the stage 1 well, so I came back to the stage 0 to start my studies again and complete this course.</p>
+      </section>
+      <section id="skills">
+        <h2 class="skills__title"><a href="#" class="link">Skills</a></h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JS</li>
+          <li>GitHub</li>
+          <li>VSCode</li>
+        </ul>
+      </section>
+      <section id="code">
+        <h2 class="code__title"><a href="#" class="link">Code</a></h2>
+        <code>function numberToString(num) {
+          return String(num);
+        }
+        </code>
+      </section>
+      <section id="education">
+        <h2 class="education__title"><a href="#" class="link">Education</a></h2>
+        <p>RS School: Stage 0</p>
+      </section>
+      <section id="english-level">
+        <h2 class="english-level__title"><a href="#" class="link">English level</a></h2>
+        <p>B2</p>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="wrapper">
+      <div class="footer__content">
+        <a href="https://github.com/Charlianok" class="navigation__link">GitHub</a>
+        <p class="footer-year">2023</p>
+        <a href="https://rs.school/js/"><img src="./assets/svg/rs_school_js.svg" alt="rsschool-logo" class="rsschool-logo"></a>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
