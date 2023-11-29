@@ -6,6 +6,8 @@
 * E-mail: dzmitrycharlianok@gmail.com
 * Telegram: @CharlianokDzmitry
 * Discord: Cherlenok Dmitry (@Charlianok)
+* GitHub: https://github.com/Charlianok
+* LinkedIn: https://www.linkedin.com/in/cherlenok-dmitry
 
 ## 3. Brief information about myself
 I studied frontend by myself. Then I learned about RS School courses. I passed stage 0 last year and started studying stage 1. Unfortunately, due to lack of time, I was not able to complete stage 1 well, so I returned to start training again and take this course.
@@ -14,10 +16,11 @@ I studied frontend by myself. Then I learned about RS School courses. I passed s
 * CSS
 * JS
 * TypeScript
-* GitHub
+* Git
 * VSCode
 * Webpack
 * Angular
+* Figma
 
 ## 5. Code example
 https://charlianok.github.io/Productly/
