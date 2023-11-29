@@ -8,18 +8,19 @@
 * Discord: Cherlenok Dmitry (@Charlianok)
 
 ## 3. Brief information about myself
-I learned frontend on my own for about two years. Then there was a need for help. I learned about RS School courses. I passed the stage 0 last year and started to study the stage 1. Unfortunately, due to lack of time, it was not possible to finish the stage 1 well, so I came back to the stage 0 to start my studies again and complete this course.
+I studied frontend by myself. Then I learned about RS School courses. I passed stage 0 last year and started studying stage 1. Unfortunately, due to lack of time, I was not able to complete stage 1 well, so I returned to start training again and take this course.
 ## 4. Skills
 * HTML
 * CSS
 * JS
+* TypeScript
 * GitHub
-* VSCode 
+* VSCode
+* Webpack
+* Angular
 
 ## 5. Code example
-function numberToString(num) {
-  return String(num);
-}
+https://charlianok.github.io/Productly/
 
 ## 6. Education
 RS School: Stage 0
